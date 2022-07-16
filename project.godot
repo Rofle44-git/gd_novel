@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "BaseHandler",
+"language": "GDScript",
+"path": "res://scripts/base_handler.gd"
+} ]
+_global_script_class_icons={
+"BaseHandler": ""
+}
+
 [application]
 
 config/name="visual novel engine"
